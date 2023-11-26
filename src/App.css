@@ -1,0 +1,74 @@
+/* Reset some default styles */
+
+body {
+  background-color: #b3e5fc;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Heading styles */
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Text alignment */
+
+.textLeft {
+  text-align: left;
+}
+
+/* Loading div styles */
+
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* Card styles */
+
+.card {
+  width: 450px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+
+.image {
+  min-width: 155px;
+  margin-right: 20px;
+}
+
+/* Stats styles */
+
+.stats {
+  background: #f2f5f8;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Common styles for stat labels */
+
+.articles,
+.followers,
+.rating {
+  font-size: 10px;
+  color: #a1aab9;
+}
+
+/* Number styles */
+
+.number1,
+.number2,
+.number3 {
+  font-weight: 500;
+}
